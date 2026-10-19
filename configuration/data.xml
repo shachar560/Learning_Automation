@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Environment>
+    <!-- API -->
+    <Base_url>https://integration.st.tibaparking.net/api/services/v1/</Base_url>
+    <!-- Bearer token is read from the environment variable TIBA_BEARER_TOKEN (see utilities/common_ops.py) -->
+    <!-- Park_Cloud_ID is read from the environment variable TIBA_PARK_CLOUD_ID (see utilities/common_ops.py) -->
+
+    <!-- UI TIBA -->
+    <!-- Supported browsers: Chrome, Edge, Firefox -->
+    <Browser>Chrome</Browser>
+    <UI_Login_url>https://spark.st.tibaparking.net/r7/account/login</UI_Login_url>
+    <WaitTime>10</WaitTime>
+    <!-- UI username and password are read from the environment variables TIBA_UI_USERNAME and TIBA_UI_PASSWORD (see utilities/common_ops.py) -->
+
+    <!-- UI sauce_demo -->
+    <SauceDemo_Login_url>https://www.saucedemo.com</SauceDemo_Login_url>
+    <SauceDemo_User_Name>standard_user</SauceDemo_User_Name>
+    <SauceDemo_Password>secret_sauce</SauceDemo_Password>
+
+
+</Environment>
