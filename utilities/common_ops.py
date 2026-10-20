@@ -36,5 +36,10 @@ def get_data(node_name):
         return password
 
     root = ET.parse("C:/Automation/Learning_Automation/configuration/data.xml").getroot()
+    if root.find(".//" + node_name) is None:
+        raise Exception(f"Node '{node_name}' not found in data.xml.")
     return root.find(".//" + node_name).text
+
+
+
 
