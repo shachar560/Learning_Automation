@@ -15,7 +15,7 @@
 
     <!-- UI sauce_demo -->
     <SauceDemo_Login_url>https://www.saucedemo.com</SauceDemo_Login_url>
-    <SauceDemo_User_Name>standard_user</SauceDemo_User_Name>
+    <SauceDemo_UserName>standard_user</SauceDemo_UserName>
     <SauceDemo_Password>secret_sauce</SauceDemo_Password>
 
 
